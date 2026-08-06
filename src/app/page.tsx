@@ -13,41 +13,43 @@ export default function Home() {
     <Container>
       <Hero />
       <SectionTitle
-        preTitle="Nextly Benefits"
-        title=" Why should you use this landing page"
+        preTitle="Our Expertise"
+        title="Comprehensive AI Evaluation Services"
       >
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        We provide enterprise-grade AI evaluation, benchmarking and strategy
+        services. Our consultants work with leading organizations to assess AI
+        solutions, identify business value, and create implementation roadmaps.
       </SectionTitle>
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
       <SectionTitle
-        preTitle="Watch a video"
-        title="Learn how to fullfil your needs"
+        preTitle="See Our Approach"
+        title="How We Evaluate AI Solutions"
       >
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
+        Watch our team walk through an enterprise AI evaluation. We analyze model
+        performance, cost-effectiveness, integration challenges, and strategic fit
+        to help organizations make informed decisions.
       </SectionTitle>
 
       <Video videoId="fZ0D0cnR88E" />
 
       <SectionTitle
-        preTitle="Testimonials"
-        title="Here's what our customers said"
+        preTitle="Proven Results"
+        title="What Enterprise Leaders Say"
       >
-        Testimonials is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        Our clients trust us to guide their AI transformation. Here&apos;s what leading
+        companies across Fortune 500, tech, finance and healthcare have to say about
+        working with our evaluation services.
       </SectionTitle>
 
       <Testimonials />
 
-      <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      <SectionTitle preTitle="FAQ" title="Common Questions About AI Evals">
+        Explore answers to frequently asked questions about our evaluation
+        services, methodologies, and how we help enterprises make confident
+        AI investment decisions.
       </SectionTitle>
 
       <Faq />

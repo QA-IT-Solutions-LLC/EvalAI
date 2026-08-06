@@ -36,21 +36,21 @@ export const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "What does an AI evaluation typically include?",
+    answer: "Our evaluations cover model performance benchmarking, cost-benefit analysis, integration feasibility, security/compliance assessment, and strategic fit analysis for your specific use cases.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "How long does an AI evaluation engagement take?",
+    answer: "Most evaluations take 4-8 weeks depending on scope and complexity. We work with your team to balance thoroughness with timeline requirements.",
   },
   {
-    question: "What is your refund policy? ",
+    question: "Which AI solutions do you evaluate?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "We evaluate LLMs, computer vision models, NLP systems, and domain-specific AI solutions. Whether custom-built or commercial platforms, we provide independent assessment.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Do you provide implementation support after evaluation?",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Yes, we offer phased implementation planning, architecture guidance, team enablement, and ongoing support to ensure successful AI integration across your enterprise.",
   },
 ];

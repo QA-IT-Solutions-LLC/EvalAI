@@ -11,46 +11,46 @@ import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Rigorous AI Model Evaluation",
+  desc: "We conduct comprehensive assessments of AI solutions including performance benchmarking, cost analysis, and integration feasibility. Our methodology helps enterprises identify the best fit for their specific use cases.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Model Performance Analysis",
+      desc: "Deep benchmarking of accuracy, latency, and resource requirements.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Cost-Benefit Assessment",
+      desc: "Evaluate total cost of ownership versus business value delivery.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Risk & Compliance Review",
+      desc: "Assess security, privacy, and regulatory implications.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Enterprise Implementation Strategy",
+  desc: "Beyond evaluation, we guide enterprises through AI selection, implementation planning, and change management. Our strategic recommendations ensure successful AI integration across your organization.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Technology Roadmapping",
+      desc: "Create phased implementation plans aligned with business goals.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Enterprise Integration Support",
+      desc: "Navigate architecture, infrastructure, and system integration challenges.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Team Enablement & Training",
+      desc: "Build organizational capability for successful AI adoption.",
       icon: <SunIcon />,
     },
   ],

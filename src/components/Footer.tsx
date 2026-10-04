@@ -6,7 +6,7 @@ import { Container } from "@/components/Container";
 export function Footer() {
   const navigation = [
     { label: "Services", href: "/" },
-    { label: "Solutions", href: "/" },
+    { label: "Solutions", href: "/solutions" },
     { label: "Case Studies", href: "/" },
     { label: "About", href: "/about" },
     { label: "Contact", href: "/contact" },

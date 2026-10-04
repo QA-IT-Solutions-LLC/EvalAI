@@ -8,7 +8,7 @@ export function Footer() {
     { label: "Services", href: "/" },
     { label: "Solutions", href: "/" },
     { label: "Case Studies", href: "/" },
-    { label: "About", href: "/" },
+    { label: "About", href: "/about" },
     { label: "Contact", href: "/contact" },
   ];
   const legal = [

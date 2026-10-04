@@ -4,8 +4,18 @@ import React from "react";
 import { Container } from "@/components/Container";
 
 export function Footer() {
-  const navigation = ["Services", "Solutions", "Case Studies", "About", "Contact"];
-  const legal = ["Terms", "Privacy", "Legal"];
+  const navigation = [
+    { label: "Services", href: "/" },
+    { label: "Solutions", href: "/" },
+    { label: "Case Studies", href: "/" },
+    { label: "About", href: "/" },
+    { label: "Contact", href: "/contact" },
+  ];
+  const legal = [
+    { label: "Terms", href: "/" },
+    { label: "Privacy", href: "/" },
+    { label: "Legal", href: "/contact" },
+  ];
   return (
     <div className="relative">
       <Container>
@@ -13,7 +23,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <div>
               {" "}
-               <Link
+              <Link
                 href="/"
                 className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
               >
@@ -40,10 +50,10 @@ export function Footer() {
               {navigation.map((item, index) => (
                 <Link
                   key={index}
-                  href="/"
+                  href={item.href}
                   className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
                 >
-                  {item}
+                  {item.label}
                 </Link>
               ))}
             </div>
@@ -53,10 +63,10 @@ export function Footer() {
               {legal.map((item, index) => (
                 <Link
                   key={index}
-                  href="/"
+                  href={item.href}
                   className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700"
                 >
-                  {item}
+                  {item.label}
                 </Link>
               ))}
             </div>
@@ -98,9 +108,9 @@ export function Footer() {
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
           Copyright © {new Date().getFullYear()}. EvalAI - Enterprise AI Evaluation Services.{" "}
-          <a href="/">
+          <Link href="/">
             All rights reserved.
-          </a>{" "}
+          </Link>{" "}
           | Privacy & Terms
         </div>
       </Container>

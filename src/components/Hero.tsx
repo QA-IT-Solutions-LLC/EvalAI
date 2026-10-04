@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Container } from "@/components/Container";
 import heroImg from "../../public/img/hero.png";
 
@@ -18,11 +19,12 @@ export const Hero = () => {
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-               <a
-                href="/"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
+              <Link
+                href="/contact"
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md "
+              >
                 Request a Demo
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -68,7 +70,7 @@ export const Hero = () => {
       </Container>
     </>
   );
-}
+};
 
 function AmazonLogo() {
   return (
@@ -173,4 +175,3 @@ function VerizonLogo() {
     </svg>
   );
 }
-
